@@ -68,4 +68,15 @@ Author
 •	Sruthy Adarsh
 •	Github -https://github.com/SruthyDataSculptor
 
+Notes:
+Data Cleaning
+
+1.Removed Duplicates-26 duplicates
+2.Marital column changed M-Married,S-Single sing ctrl+H-replace with
+3.Genderl column changed M-Male,F-Female sing ctrl+H-replace with
+4.Income Column -makes to currency and delete zeros after decimal points.
+5.Additional to "Age" column I inserted another column "Age Brackets" column with formula 
+=IF(Age>=55,"Old", IF(Age>=31,"Middle Age",IF(Age<31,"Adolescent","Invalid")))
+6.Commute Distance column changed 10+ Miles to More than 10 Miles for sorting easily to Ascending.
+
 
